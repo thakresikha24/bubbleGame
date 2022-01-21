@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(168, 197, 124);
+}
+#main #panel{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10%;
+    top: 15%;
+    left: 25%;
+    
+    position: absolute;
+}
+#panel #top{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#top a{
+    text-decoration: none;
+    color: white;
+    top: 25%;
+    left: 7%;
+    position: absolute;
+}
+#top #s{
+    
+    background-color: white;
+    padding: 20px;
+    left: 15%;
+    top: 10%;
+    position: absolute;
+}
+#b a{
+    text-decoration: none;
+    color: white;
+    top: 25%;
+    left: 43%;
+    position: absolute;
+}
+#b #p{
+    background-color: white;
+    padding: 20px;
+    left: 50%;
+    top: 10%;
+    position: absolute;
+}
+#c a{
+    text-decoration: none;
+    color: white;
+    top: 25%;
+    left: 78%;
+    position: absolute;
+}
+#c #m{
+    background-color: white;
+    padding: 20px;
+    left: 86%;
+    top: 10%;
+    position: absolute;
+}
+
+
+#panel #bottom{
+    width: 100%;
+    margin-top: 8%;
+height: 90%;
+    background-color: rgb(215, 224, 215);
+    position: absolute;
+    padding: 8px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+#bottom .bubble{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(60, 138, 60);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
